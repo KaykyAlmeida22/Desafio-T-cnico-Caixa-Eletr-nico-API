@@ -245,7 +245,7 @@ Basicamente o programa funciona num servidor express/node.js recebendo um valor 
 O projeto foi desenvolvido para simular um caixa eletrônico simples. A lógica foi otimizada para garantir a menor quantidade de cédulas possíveis para qualquer valor de saque permitido, utilizando diversas validações para melhor robustez do código e 
 o código foi totalmente comentado, para melhor compreensão do avaliador ou colaborador.
 
-##Principais Desafios
+## Principais Desafios
 
 No projeto em si, não tive muitos problemas. Quando comecei a colocar algumas novas validações comecei a quebrar mais a cabeça, principalmente quando pensei em implementar uma Interface de Usuário e deu muitos problemas, acabei dando ênfase na API
 em si do que priorizar uma UI, devido ao tempo.
