@@ -47,12 +47,12 @@ Basicamente o programa funciona num servidor express/node.js recebendo um valor 
 - **Saída** (JSON):
   ```json
   {
-    100: 20,
-    50: 30,
-    20: 40,
-    10: 50,
-    5: 100,
-    2: 200
+    "100": 20,
+    "50": 30,
+    "20": 40,
+    "10": 50,
+    "5": 100,
+    "2": 200
   }
   ```
 
@@ -136,12 +136,12 @@ Basicamente o programa funciona num servidor express/node.js recebendo um valor 
 - **Resposta**:
   ```json
    {
-    100: 0,
-    50: 30,
-    20: 40,
-    10: 50,
-    5: 100,
-    2: 200
+    "100": 0,
+    "50": 30,
+    "20": 40,
+    "10": 50,
+    "5": 100,
+    "2": 200
   }
   ```
   #Agora que as notas de 100 acabaram, a API vai passar a utilizar as outras notas mantendo a menor quantidade de cédulas possível.
@@ -152,12 +152,12 @@ Basicamente o programa funciona num servidor express/node.js recebendo um valor 
 - **Resposta**:
   ```json
   {
-     100: 0,
-     50: 20,
-     20: 0,
-     10: 0,
-     5: 0,
-     2: 0
+     "100": 0,
+     "50": 20,
+     "20": 0,
+     "10": 0,
+     "5": 0,
+     "2": 0
   }
   ```
   - **Requisição**:
@@ -167,12 +167,12 @@ Basicamente o programa funciona num servidor express/node.js recebendo um valor 
 - **Resposta**:
   ```json
   {
-     100: 0,
-     50: 10,
-     20: 25,
-     10: 0,
-     5: 0,
-     2: 0
+     "100": 0,
+     "50": 10,
+     "20": 25,
+     "10": 0,
+     "5": 0,
+     "2": 0
   }
   ```
   - **Requisição**:
@@ -182,12 +182,12 @@ Basicamente o programa funciona num servidor express/node.js recebendo um valor 
 - **Resposta**:
   ```json
   {
-     100: 0,
-     50: 0,
-     20: 15,
-     10: 50,
-     5: 40,
-     2: 0
+     "100": 0,
+     "50": 0,
+     "20": 15,
+     "10": 50,
+     "5": 40,
+     "2": 0
   }
   ```
   #Agora não há mais notas o suficiente para sacar o valor de 1000
@@ -230,12 +230,12 @@ Basicamente o programa funciona num servidor express/node.js recebendo um valor 
 - **Resposta**:
   ```json
   {
-     100: 3,
-     50: 1,
-     20: 1,
-     10: 1,
-     5: 0,
-     2: 0
+     "100": 3,
+     "50": 1,
+     "20": 1,
+     "10": 1,
+     "5": 0,
+     "2": 0
   }
   ```
   
